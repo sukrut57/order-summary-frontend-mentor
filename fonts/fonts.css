@@ -1,0 +1,30 @@
+
+/*Red hat - 500 */
+@font-face {
+    font-family: 'red hat';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+    src: url('red-hat-display-v20-latin-500.woff2');
+}
+
+
+/*Red hat - 700 */
+@font-face {
+    font-family: 'red hat';
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+    src: url('red-hat-display-v20-latin-700.woff2');
+}
+
+
+
+/*Red hat - 900 */
+@font-face {
+    font-family: 'red hat';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+    src: url('red-hat-display-v20-latin-900.woff2');
+}
