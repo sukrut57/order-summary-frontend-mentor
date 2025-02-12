@@ -11,6 +11,8 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    max-height: 100svh;
+    max-width: 100vw;
   }
   
   img, picture, video, canvas, svg {
@@ -35,6 +37,13 @@
 
   /*global colors*/
 :root{
-  --primary-color:hsl(0, 0%, 0%);
+  --primary-background-color:hsl(225, 100%, 94%)
 }
   
+body{
+  background-color: var(--primary-background-color); 
+  background-image: url('images/pattern-background-desktop.svg');
+  background-size: 100% 40svh; 
+  background-position: top;
+  background-repeat: no-repeat;
+}
