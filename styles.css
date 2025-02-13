@@ -1,11 +1,13 @@
 @import url('fonts/fonts.css');
 
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
   
   * {
     margin: 0;
+    padding: 0;
   }
   
   body {
@@ -13,6 +15,8 @@
     -webkit-font-smoothing: antialiased;
     max-height: 100svh;
     max-width: 100vw;
+    font-family: 'red hat', sans-serif;
+    font-weight: 500;
   }
   
   img, picture, video, canvas, svg {
@@ -30,6 +34,8 @@
   
   p {
     text-wrap: pretty;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
@@ -37,13 +43,29 @@
 
   /*global colors*/
 :root{
-  --primary-background-color:hsl(225, 100%, 94%)
+  --pale-blue:hsl(225, 100%, 94%);
+  --light-pale-blue:hsl(225, 100%, 98%);
+  --desaturated-blue:hsl(224, 23%, 55%);
+  --bright-blue:hsl(245, 75%, 52%);
+  --dark-blue:hsl(223, 47%, 23%);
+
 }
   
 body{
-  background-color: var(--primary-background-color); 
+  background-color: var(--pale-blue) !important; 
   background-image: url('images/pattern-background-desktop.svg');
   background-size: 100% 40svh; 
   background-position: top;
   background-repeat: no-repeat;
+}
+
+.image-fluid{
+  border-top-left-radius: 1.4rem;
+  border-top-right-radius: 1.4rem;
+}
+
+.title{
+  color:var(--dark-blue);
+  font-weight: 700 !important;
+  font-size: 1.5rem;
 }
