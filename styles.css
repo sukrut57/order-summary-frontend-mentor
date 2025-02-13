@@ -63,6 +63,10 @@ body{
   border-top-left-radius: 1.4rem;
   border-top-right-radius: 1.4rem;
 }
+.content-container{
+  background-color: var(--light-pale-blue);
+  height: 300px;
+}
 
 .title{
   color:var(--dark-blue);
